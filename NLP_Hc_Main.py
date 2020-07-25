@@ -1,9 +1,5 @@
-# Text Generation for Predictvia ML Specialist Job
-# Version 0.0 - Code Creation, Char prediction 19/06/2020
-# Version 0.1 - Code reorganization (OOP) 20/06/2020
-# Version 0.2 - Adaptation for word prediction 22/06/2020
+# Text Generation
 # by Cristian C. Velandia C. 
-# Virtual environment at C:\Windows\system32\venvNLP\Scripts\ (Activate-Deactivate)
 # Sources:
 # https://www.analyticsvidhya.com/blog/2019/08/comprehensive-guide-language-model-nlp-python-code/
 # https://stackabuse.com/text-generation-with-python-and-tensorflow-keras/
@@ -14,7 +10,7 @@
 # and processing, then a deep learning model using embeeding input, LSTM hidden layer and fully (Dense)
 # connected output is trained and tuned using the loss metric.
 #
-# CODE: Main code for Language generation, uses the class at b_NLP_HealthCare.py train an test can be 
+# CODE: Main code for Language generation, uses the class at NLP_HealthCare.py train an test can be 
 # done here saving time and space. Also, improves tuning. 
 #
 # Packages: Python 3.8.3 
@@ -57,3 +53,4 @@ if Train == 0:
 else:
     #TEST MODEL
     LGen.TestModel("NLP_model_weights_Words.hdf5", TestKW, GenWords=8)
+    
