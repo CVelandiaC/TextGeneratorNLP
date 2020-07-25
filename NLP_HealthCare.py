@@ -1,9 +1,5 @@
-# Text Generation for Predictvia ML Specialist Job
-# Version 0.0 - Code Creation, Char prediction 19/06/2020
-# Version 0.1 - Code reorganization (OOP) 20/06/2020
-# Version 0.2 - Adaptation for word prediction 22/06/2020
+# Text Generation
 # by Cristian C. Velandia C. 
-# Virtual environment at C:\Windows\system32\venvNLP\Scripts\ (Activate-Deactivate)
 # Sources:
 # https://www.analyticsvidhya.com/blog/2019/08/comprehensive-guide-language-model-nlp-python-code/
 # https://stackabuse.com/text-generation-with-python-and-tensorflow-keras/
@@ -158,8 +154,6 @@ class NLP_LanguageGen_Hc:
         with open("NLPResults.txt", "w") as text_file:
             text_file.write(" ".join(FText))
 
-       
-
     def ShowAllParams(self):
         print("\n----------------------------------------------------------------")
         print("Total number of characters: ", self.TextLength)
@@ -168,9 +162,3 @@ class NLP_LanguageGen_Hc:
         print("----------------------------------------------------------------")
         self.model.summary()
         print("----------------------------------------------------------------\n")
-
-    
-
-
-
-
